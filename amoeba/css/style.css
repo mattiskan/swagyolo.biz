@@ -433,24 +433,31 @@ h1 a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
+	height: 610px;
 	color: #fdfdfd;
 	
-	background: url('http://37.media.tumblr.com/974ecbe17c67c49c7a8cbc4fee855d77/tumblr_mgxf0r23Ey1rmpu3ao1_1280.jpg') no-repeat center 0px fixed;
-	background-size: 100% auto;
+	background: url('../img/parallax/tie.jpg') no-repeat right top;
+	background-size: auto cover;
 }
 
-section.featured h2.slogan {
+section.featured .slogan {
+	padding-top: 10px;	
+}
+
+section.featured .slogan h1 {
+	line-height: 100%;
 	color: #fff;
-	font-size: 48px;
+	font-size: 160px;
 	font-weight: 900;
 }
-  
- /* inner heading */
-section.featured.inner {
-	background: #eee;
-	padding: 150px 0 50px;
+
+section.featured .slogan p {
+	line-height: 100%;
+	font-size: 40px;
+	font-weight: 500;
 }
-  
+
+
   
 /* --- Flexslider --- */
 .flexslider {
