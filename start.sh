@@ -12,7 +12,7 @@ then
 fi
 
 #start server
-cmd='npm start &>node.log & echo $! > nodeserver.pid'
+cmd='npm start &>node.log' # & echo $! > nodeserver.pid'
 echo $cmd | at now 2> /dev/null
 
 echo -n "Starting node server..."

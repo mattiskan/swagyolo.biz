@@ -56,4 +56,12 @@ app.use(function(err, req, res, next) {
     });
 });
 
+//Store process id for restart
+var fs = require('fs');
+fs.writeFile("nodeserver.pid", process.pid, function(err) {
+    if(err) {
+        console.log(err);
+    }
+}); 
+
 module.exports = app;
