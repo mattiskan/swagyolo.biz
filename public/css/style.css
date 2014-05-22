@@ -457,7 +457,9 @@ section.featured .slogan p {
 	font-weight: 500;
 }
 
-
+#section-about {
+    margin-top: 20px;
+}
   
 /* --- Flexslider --- */
 .flexslider {
