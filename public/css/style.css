@@ -752,6 +752,10 @@ nav#filter a {
 	font-size: 18px;
 	font-family: Georgia, sans-serif;
 	line-height: 1.5em;
+}
+
+#parallax1 div{
+    height: 300px;
 }	
 
 /*===========================
