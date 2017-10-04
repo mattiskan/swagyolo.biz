@@ -1,4 +1,4 @@
-swagyolo.biz
+swagyolo.biz (DEPRECATED)
 ============
 
 Official frontpage of swagyolo.biz
